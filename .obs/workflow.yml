@@ -1,0 +1,6 @@
+workflow:
+  steps:
+    - branch_package:
+        source_project: home:useidel
+        source_package: fetchmail
+        target_project: releases
