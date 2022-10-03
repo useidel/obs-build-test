@@ -1,5 +1,5 @@
 main_workflow:
   steps:
     - rebuild_package:
-        source_project: home:useidel
-        source_package: fetchmail
+        project: home:useidel
+        package: fetchmail7
