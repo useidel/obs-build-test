@@ -1,6 +1,5 @@
-workflow:
+main_workflow:
   steps:
-    - branch_package:
+    - rebuild_package:
         source_project: home:useidel
         source_package: fetchmail
-        target_project: releases
