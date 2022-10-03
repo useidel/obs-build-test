@@ -1,5 +1,8 @@
-main_workflow:
+rebuild_master:
   steps:
     - rebuild_package:
         project: home:useidel
         package: fetchmail7
+  filters:
+    event: push
+
