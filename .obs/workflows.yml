@@ -2,7 +2,7 @@ rebuild_master:
   steps:
     - rebuild_package:
         project: home:useidel
-        package: test
+        package: dummy
   filters:
     event: push
 
